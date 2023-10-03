@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Lobster+Two:ital@0;1&family=Poppins:wght@300;500&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    background-color: #c25e47;
+    color: white;
+    padding: 10px;
+}
+.ac1{
+    color: #35325f;
+}
+.account-info, .transaction {
+    margin: 20px;
+    padding: 20px;
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #2d4265;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#account-number{
+    color: #76fe00;
+}
+#balance{
+    color: #76fe00;
+}
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #31ce56;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+#transaction-amount{
+    border: none;
+}
